@@ -1,0 +1,19 @@
+#include"syscall.h"
+
+int main()
+{
+	int i;
+	PrintString("----------Ma Ascii------------\n");
+	PrintInt(32);
+	PrintString(" : \n");
+	for(i = 33; i <= 126; i++)
+	{
+		PrintInt(i);
+		PrintString(" : ");
+		PrintChar(i);
+		PrintString("\n");
+	}
+
+	Halt();
+}
+
