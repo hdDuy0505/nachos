@@ -336,8 +336,8 @@ void ExceptionHandler(ExceptionType which)
 		case SC_ReadChar:
 		{
 
-			//Input: Khong co
-			//Output: Duy nhat 1 ky tu (char)
+			//Input: Khong
+			//Output: 1 ky tu (char)
 			//Cong dung: Doc mot ky tu tu nguoi dung nhap
 			int maxBytes = 255;
 			char* buffer = new char[255];
