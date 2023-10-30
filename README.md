@@ -1,2 +1,2 @@
 # nachos
-Nachos - HCMUS Lê Viết Long
+Nachos - HCMUS Thầy Lê Viết Long
